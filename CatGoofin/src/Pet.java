@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections
+import java.util.List;
 
 public class Pet {
     int age;
@@ -17,13 +20,20 @@ public class Pet {
         pet1.speak();
         cat1.speak();
         System.out.println("Welcome to the animal Shelter");
-        System.out.println("An animal has been thrust upon you, his name is Saucy Joe. A rapacious fellow if I ever saw one.");
+        System.out.println("An animal has been thrust upon you, his name is Joe.");
         System.out.println("Press 1 to adopt a Cat, Press 2 to exit the shelter.");
+        ArrayList <Pet> animalList = new ArrayList<Pet>();
+        animalList.add(pet1);
+        animalList.add(cat1);
+
     }
 
     public void speak(){
         System.out.println("I am an animal named Saucy Joe");
     }
+
+    ArrayList <Pet> animalList = new ArrayList<Pet>();
+    animalList.add(p);
 
 
 }
